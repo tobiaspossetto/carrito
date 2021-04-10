@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato"; }
+
+body {
+  background: linear-gradient(86.48deg, #0076B8 -32.61%, #c9c9c9ab 52.39%); }
+  body .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px; }
+    body .nav .container-carrito {
+      width: 50px; }
+      body .nav .container-carrito .carrito {
+        width: 100%; }
+    body .nav .container-logo {
+      width: 150px; }
+      body .nav .container-logo .logo {
+        width: 100%; }
+  body .cont-carrito {
+    z-index: 100;
+    background-color: black;
+    width: 60%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.8s ease; }
+  body .activado {
+    transform: translate(6000px);
+    transition: all 0.5 ease; }
+  body .carousel {
+    background-color: #ffffff;
+    border-radius: 10px; }
+    body .carousel .carousel-inner .item {
+      padding: 15px; }
+      body .carousel .carousel-inner .item .container-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        body .carousel .carousel-inner .item .container-item .info {
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column; }
+          body .carousel .carousel-inner .item .container-item .info .collection {
+            font-size: 10px; }
+          body .carousel .carousel-inner .item .container-item .info .title {
+            font-size: 25px;
+            font-weight: 700; }
+            body .carousel .carousel-inner .item .container-item .info .title strong {
+              color: #0076B8; }
+          body .carousel .carousel-inner .item .container-item .info .description {
+            font-size: 15px; }
+          body .carousel .carousel-inner .item .container-item .info .btn {
+            background-color: #000000;
+            color: #0076B8;
+            border-radius: 10px;
+            margin: auto; }
+        body .carousel .carousel-inner .item .container-item .img {
+          width: 50%;
+          /*background: url(../assets/img/nitro5.png);
+                        background-size:cover;
+                        background-position: center;
+                        background-repeat: no-repeat;*/ }
+          body .carousel .carousel-inner .item .container-item .img img {
+            width: 100%; }
+  body .container-filters {
+    margin-top: 40px; }
+    body .container-filters .filtros-btn .btn-filtros {
+      padding: 5px;
+      border-radius: 2px;
+      border: 0.5px solid #3a3a3a;
+      color: #0076B8; }
+    body .container-filters .filtros-btn .btn-filtros:hover {
+      background-color: black; }
+  body .container-towork {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    body .container-towork h2 {
+      text-align: center;
+      margin-bottom: 20px; }
+    body .container-towork .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      body .container-towork .wrapper .item {
+        width: 145px;
+        background-color: white;
+        margin-left: 5px;
+        margin-bottom: 35px;
+        position: relative;
+        min-height: 250px;
+        border-radius: 15px; }
+        body .container-towork .wrapper .item .container-img {
+          width: 100%;
+          height: 100px;
+          border-radius: 15px; }
+          body .container-towork .wrapper .item .container-img .img {
+            border-radius: 15px;
+            width: 100%;
+            height: 100%; }
+        body .container-towork .wrapper .item .title {
+          font-size: 24px;
+          text-align: center; }
+        body .container-towork .wrapper .item .description {
+          font-size: 14px;
+          text-align: center;
+          margin: 0; }
+        body .container-towork .wrapper .item .container-interaction {
+          position: absolute;
+          bottom: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          body .container-towork .wrapper .item .container-interaction p {
+            margin: 0px;
+            margin-right: 20%; }
+          body .container-towork .wrapper .item .container-interaction a {
+            margin-right: 5px; }
+  body footer {
+    background-color: #0076B8;
+    padding: 10px;
+    color: white; }
+    body footer p {
+      text-align: center;
+      font-size: 20px; }
